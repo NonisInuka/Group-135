@@ -1,4 +1,0 @@
-M001,Inception,Sci-Fi,148,English,PG-13,12.50,true
-M002,The Dark Knight,Action,152,English,PG-13,12.50,true
-M003,Interstellar,Sci-Fi,169,English,PG,13.00,true
-M004,Parasite,Thriller,132,Korean,R,11.00,false
