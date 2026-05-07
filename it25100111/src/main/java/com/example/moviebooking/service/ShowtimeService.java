@@ -12,7 +12,7 @@ public class ShowtimeService {
     private final List<Showtime> showtimes = new ArrayList<>();
 
 
-    // ADD
+    
     public String addShowtime(Showtime showtime) {
 
         showtimes.add(showtime);
@@ -21,14 +21,14 @@ public class ShowtimeService {
     }
 
 
-    // GET ALL
+    
     public List<Showtime> getAllShowtimes() {
 
         return showtimes;
     }
 
 
-    // UPDATE
+    
     public String updateShowtime(int id, Showtime updatedShowtime) {
 
         for (Showtime s : showtimes) {
@@ -47,7 +47,7 @@ public class ShowtimeService {
     }
 
 
-    // DELETE
+    
     public String deleteShowtime(int id) {
 
         for (Showtime s : showtimes) {
