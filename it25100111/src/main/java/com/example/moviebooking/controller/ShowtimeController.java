@@ -22,7 +22,7 @@ public class ShowtimeController {
             writer.write(showtime.toString());
             writer.newLine();
 
-            writer.close();
+            
 
             return "Showtime Added Successfully";
 
@@ -45,7 +45,7 @@ public class ShowtimeController {
                 showtimes.add(line);
             }
 
-            reader.close();
+            
 
         } catch (IOException e) {
             showtimes.add("Error Reading File");
@@ -90,7 +90,7 @@ public class ShowtimeController {
                 }
             }
 
-            reader.close();
+            
 
             BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_NAME));
 
@@ -99,7 +99,7 @@ public class ShowtimeController {
                 writer.newLine();
             }
 
-            writer.close();
+            
 
         } catch (IOException e) {
             return "Error Updating Showtime";
@@ -136,7 +136,7 @@ public class ShowtimeController {
                 }
             }
 
-            reader.close();
+            
 
             BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_NAME));
 
@@ -145,7 +145,7 @@ public class ShowtimeController {
                 writer.newLine();
             }
 
-            writer.close();
+        
 
         } catch (IOException e) {
             return "Error Deleting Showtime";
