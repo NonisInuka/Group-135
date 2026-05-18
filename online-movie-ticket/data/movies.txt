@@ -1,3 +1,0 @@
-2,Batman,Action,2h20m,Nolan,8.8,batman.jpg
-1,Avengers,Action,2hours,Marvel,9.0,avengers.jpg
-3,SpiderMan,Action,2hours,Alex,9.0,spiderman.jpg

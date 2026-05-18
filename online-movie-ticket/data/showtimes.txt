@@ -1,5 +1,0 @@
-2,Avengers,2026-05-16,2PM,IMAX
-3,SpiderMan,2026-05-16,9PM,Cinema Hall1,Avengers,2026-05-16,9PM,imax
-2,batman,2026-05-16,7pm,digital 3d
-3,Avengers,2026-05-16,9PM,imax
-5,Avengers,2026-05-16,11PM,imax
